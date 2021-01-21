@@ -347,9 +347,9 @@ public:
 
         nBlockStakeModifierlV2 = std::numeric_limits<int>::max(); // max integer value (never switch on regtest)
 
-        hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 22888;
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+        //hashGenesisBlock = genesis.GetHash();
+        //nDefaultPort = 22888;
+        //assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
 
         bech32_hrp = "phrt";
 
